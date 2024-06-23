@@ -306,7 +306,7 @@ function trdx(){
         <div class="container">
             <div class="row gx-5">
                 <div class="center">
-                    <h1 class="text-uppercase mb-4" id="idtraductor">Traductor de texto a señas</h1>
+                    <h1 class="text-uppercase mb-4" id="idtraductor">Traductor</h1>
                     <div id="inputtext">
                         <form action="index.php" method="post">
                             <textarea name="TextoT" rows="5" name="traductor" id="traductor"><?php if($_POST){echo $_POST['TextoT'];}?></textarea><br><br>

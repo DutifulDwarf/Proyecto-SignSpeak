@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">Talking hands</h6>
+                        <h6 class="text-primary text-uppercase">SignSpeak</h6>
                         <h1 class="display-5 text-uppercase mb-0">Traducir palabras y señas</h1>
                     </div>
                     <div class="bg-light p-4">

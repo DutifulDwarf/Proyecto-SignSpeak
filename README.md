@@ -1,7 +1,7 @@
-# TalkingHands
+# SignSpeak
 
 ## Descripción
-TalkingHands es una página web diseñada para traducir de lenguaje de señas a texto y viceversa. La plataforma incluye un teclado de señas que permite a los usuarios comunicarse de manera eficiente y efectiva.
+SignSpeak es una página web diseñada para traducir de lenguaje de señas a texto y viceversa. La plataforma incluye un teclado de señas que permite a los usuarios comunicarse de manera eficiente y efectiva.
 
 ## Índice
 1. [Instalación](#instalación)
@@ -21,11 +21,11 @@ Instalación
 ## Pasos de instalación
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/usuario/TalkingHands.git
+    git clone https://github.com/DutifulDwarf/Proyecto-SignSpeak
     ```
 2. Navegar al directorio del proyecto:
     ```bash
-    cd TalkingHands
+    cd Proyecto-SignSpeak
     ```
 3. Instalar las dependencias de Node.js:
     ```bash
@@ -36,7 +36,7 @@ Instalación
     - Inicia Apache y MySQL desde el panel de control de XAMPP.
 
 ## Uso
-Para iniciar la aplicación, asegúrate de que el servidor web y Node.js estén corriendo. Luego, abre tu navegador y accede a `http://localhost/TalkingHands`.
+Para iniciar la aplicación, asegúrate de que el servidor web y Node.js estén corriendo. Luego, abre tu navegador y accede a `http://localhost/Proyecto-SignSpeak`.
 
 ### Ejemplos
 1. **Traducción de lenguaje de señas a texto:**

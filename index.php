@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>.ie-panel{display: none;background: #ffffff;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -22,7 +22,7 @@
       <header class="section page-header">
         <div class="container">
           <div class="row justify-content-between align-items-end row-30">
-            <div class="col-12 col-md-6"><a class="brand-logo" href="./"><img src="images/logo-default-346x62.png" alt="" width="346" height="62"/></a></div>
+            <div class="col-12 col-md-6"><a class="brand-logo" href="./"><img src="images/logotip.jpeg" alt="" width="200" height="62"/></a></div>
             <div class="col-12 col-md-6 col-xl-4">
               <div class="head-title">
                 <p> Un mundo de señas, un mundo de entendimiento:<br class="d-none d-md-inline-block">Comunicacion sin barreras para un mundo inclusivo.</p>
@@ -47,12 +47,10 @@
               <div class="tab-pane fade show active" id="tabs-1-1">
                 <div class="tabs-custom tabs-horizontal tabs-gallery hide-on-modal" id="tabs-galery">
                   <!-- Nav tabs-->
-                  <ul class="nav nav-tabs">
+                  <ul class="nav nav-tabs flex column">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-1" data-toggle="tab"><img src="images/gallery-01-180x180.jpg" alt="" width="180" height="180"/><span>Lifestyle</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-2" data-toggle="tab"><img src="images/gallery-02-180x180.jpg" alt="" width="180" height="180"/><span>Portrait</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-3" data-toggle="tab"><img src="images/gallery-03-180x180.jpg" alt="" width="180" height="180"/><span>Fashion</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-4" data-toggle="tab"><img src="images/gallery-04-180x180.jpg" alt="" width="180" height="180"/><span>Nature</span></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-5" data-toggle="tab"><img src="images/gallery-05-180x180.jpg" alt="" width="180" height="180"/><span>City Life</span></a></li>
                   </ul>
                   <!-- Tab panes-->
                   <div class="tab-content">
@@ -88,53 +86,6 @@
                         </div>
                         <div class="gallery-wrap-inner">
                           <!-- Owl Carousel-->
-                        </div>
-                      </div>
-                    </div>
-                    <!--nature-->
-                    <div class="tab-pane fade" id="tabs-gallery-4">
-                      <div class="gallery-wrap">
-                        <div class="gallery-wrap-inner">
-                          <h4>Nature</h4>
-                          <div class="dots-custom-nature"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
-                        </div>
-                        <div class="gallery-wrap-inner">
-                          <!-- Owl Carousel-->
-                        </div>
-                      </div>
-                    </div>
-                    <!--city-->
-                    <div class="tab-pane fade" id="tabs-gallery-5">
-                      <div class="gallery-wrap">
-                        <div class="gallery-wrap-inner">
-                          <h4>Citylife</h4>
-                          <div class="dots-custom-city"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
-                        </div>
-                        <div class="gallery-wrap-inner">
-                          <!-- Owl Carousel-->
-                          <div class="owl-carousel owl-gallery" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-lightgallery="group" data-pagination-class=".dots-custom-city"><a class="gallery-item" href="images/gallery-city-02-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-02-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-01-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-01-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-03-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-03-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-04-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-04-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-05-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-05-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-06-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-06-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a><a class="gallery-item" href="images/gallery-city-07-970x524.jpg" data-lightgallery="item">
-                              <figure><img src="images/gallery-city-07-970x524.jpg" alt="" width="970" height="524"/>
-                              </figure>
-                              <div class="caption"><span class="icon novi-icon fa-expand"></span></div></a>
-                          </div>
                         </div>
                       </div>
                     </div>

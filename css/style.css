@@ -105,8 +105,8 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 300;
-	color: #a5a5a5;
-	background-color: #2c343b;
+	color: #ffffff;
+	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 	overflow-x: hidden;
@@ -467,7 +467,7 @@ a[href*='callto'], a[href*='mailto'] {
 .box-counter {
 	position: relative;
 	text-align: center;
-	color: #2c343b;
+	color: #ffffff;
 }
 
 .box-counter-title {
@@ -1016,7 +1016,7 @@ img {
 
 .table-custom th,
 .table-custom td {
-	color: #2c343b;
+	color: #ffffff;
 	background: #fff;
 }
 
@@ -3076,7 +3076,7 @@ html [class*='section-'].section-bottom-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: #2c343b;
+	background-color: #ffffff;
 }
 
 .bg-default + .bg-default {
@@ -3095,7 +3095,7 @@ html [class*='section-'].section-bottom-0 {
 * Dark Backgrounds
 */
 .bg-gray-dark {
-	background-color: #2c343b;
+	background-color: #ffffff;
 }
 
 .bg-gray-dark + .bg-gray-dark {

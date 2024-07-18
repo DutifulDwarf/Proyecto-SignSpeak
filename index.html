@@ -27,6 +27,7 @@
               <div class="head-title">
                 <p> Un mundo de señas, un mundo de entendimiento:<br class="d-none d-md-inline-block">Comunicacion sin barreras para un mundo inclusivo.</p>
               </div>
+              
             </div>
           </div>
         </div>
@@ -44,46 +45,49 @@
             </ul>
             <!-- Tab panes-->
             <div class="tab-content">
-              <div class="tab-pane fade show active" id="tabs-1-1">
+              <!-- Inicio tab content -->
+    <div class="tab-pane fade show active" id="tabs-1-1">
+      <div class="container">
+        <!-- Video Section -->
+        <div class="embed-responsive embed-responsive-16by9">
+         <iframe width="560" height="315" src="https://youtu.be/yKNxeF4KMsY?si=5xsT2K1EJw2kUzGU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- Sections below the video -->
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="info-section" onmouseover="showInfo('intro')" onmouseout="hideInfo('intro')">
+              <h4>Introducción</h4>
+              <p id="intro" class="info-content" style="display: none;">Información de introducción...</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-section" onmouseover="showInfo('objective')" onmouseout="hideInfo('objective')">
+              <h4>Objetivo</h4>
+              <p id="objective" class="info-content" style="display: none;">Información de objetivo...</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-section" onmouseover="showInfo('translator')" onmouseout="hideInfo('translator')">
+              <h4>Traductor</h4>
+              <p id="translator" class="info-content" style="display: none;">Información de traductor...</p>
+            </div>
+              
+              <!--<div class="tab-pane fade show active" id="tabs-1-1">
                 <div class="tabs-custom tabs-horizontal tabs-gallery hide-on-modal" id="tabs-galery">
-                  <!-- Nav tabs-->
+                  
                   <ul class="nav nav-tabs">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-1" data-toggle="tab"><img src="images/gallery-01-180x180.jpg" alt="" width="180" height="180"/><span>Introduccion</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-2" data-toggle="tab"><img src="images/gallery-02-180x180.jpg" alt="" width="180" height="180"/><span>Objetivo</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-gallery-3" data-toggle="tab"><img src="images/gallery-03-180x180.jpg" alt="" width="180" height="180"/><span>Traductor</span></a></li>
                   </ul>
-                  <!-- Tab panes-->
-                  <div class="tab-content">
-                    <div class="tab-pane fade" id="tabs-gallery-1">
-                      <div class="gallery-wrap">
-                        <div class="gallery-wrap-inner">
-                          <h4>Lifestyle</h4>
-                          <div class="dots-custom-lifestyle"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <!--Portrait-->
-                    <div class="tab-pane fade" id="tabs-gallery-2">
-                      <div class="gallery-wrap">
-                        <div class="gallery-wrap-inner">
-                          <h4>Portrait</h4>
-                          <div class="dots-custom-portrait"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <!--Fashion-->
-                    <div class="tab-pane fade" id="tabs-gallery-3">
-                      <div class="gallery-wrap">
-                        <div class="gallery-wrap-inner">
-                          <h4>Fashion</h4>
-                          <div class="dots-custom-fashion"></div><a class="back-to-gallery button-link button-link-icon" href="#"><span class="novi-icon icon icon-primary fa fa-angle-left"></span><span>back to gallery</span></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
-              </div>
+                
+              </div>-->
+
+              
               <div class="tab-pane fade" id="tabs-1-2">
+                
                 <div class="content-box hide-on-modal">
                   <div class="content-box-inner">
                     <div class="row align-items-center row-30 row-md-30">
@@ -235,19 +239,19 @@
                         <div class="row row-14 gutters-14">
                           <div class="col-sm-6">
                             <div class="form-wrap">
-                              <label class="form-label" for="contact-name">Name</label>
+                              <label class="form-label" for="contact-name">Nombre</label>
                               <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
                             </div>
                           </div>
                           <div class="col-sm-6">
                             <div class="form-wrap">
-                              <label class="form-label" for="contact-phone">Phone</label>
+                              <label class="form-label" for="contact-phone">Telefono</label>
                               <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber">
                             </div>
                           </div>
                           <div class="col-12">
                             <div class="form-wrap">
-                              <label class="form-label" for="contact-message">Message</label>
+                              <label class="form-label" for="contact-message">Mensaje</label>
                               <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
                             </div>
                           </div>
@@ -259,20 +263,18 @@
                           </div>
                           <div class="col-sm-6 align-self-end">
                             <div class="form-button">
-                              <button class="button button-lg button-block button-primary" type="submit">Send</button>
+                              <button class="button button-lg button-block button-primary" type="submit">Enviar</button>
                             </div>
                           </div>
                         </div>
                       </form>
                     </div>
                     <div class="col-12 col-md-4">
-                      <h3>Contact Info</h3>
-                      <address class="subtitle">8901 Marmora Road,<br> Glasgow, D04 89GR.</address>
+                      <h3>Informacion de Contacto</h3>
                       <ul class="contact-info">
-                        <li><span>Freephone:</span><a href="tel:#">+1 800 559 6580</a></li>
-                        <li><span>Telephone:</span><a href="tel:#">+1 800 603 6035</a></li>
-                        <li><span>FAX:</span><a href="tel:#">+1 800 889 9898</a></li>
-                        <li><span>E-mail:</span><a href="mailto:#">mail@demolink.org</a></li>
+                        <li><span>Celular:</span><a href="tel:#">+52 800 559 6580</a></li>
+                        <li><span>Telefono:</span><a href="tel:#">+52 800 603 6035</a></li>
+                        <li><span>E-mail:</span><a href="mailto:#">signspeaklsm@gmail.com</a></li>
                       </ul>
                     </div>
                   </div><a class="close-content-box" href="#">x</a>
@@ -281,7 +283,7 @@
             </div>
           </div>
         </div>
-      </section><a class="section section-banner d-xl-none" href="https://www.templatemonster.com/website-templates/monstroid2.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )" target="_blank"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      
       <!-- Page Footer-->
       <footer class="section footer-classic context-dark novi-background">
         <div class="container">

@@ -2672,6 +2672,12 @@ p + .subtitle {
 	margin-top: 5px;
 }
 
+.container{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
 .container + .container {
 	margin-top: 35px;
 }

@@ -1,12 +1,19 @@
 {
-  "name": "proyectotalkinhands",
-  "version": "1.0.0",
-  "description": "## Descripción TalkingHands es una página web diseñada para traducir de lenguaje de señas a texto y viceversa. La plataforma incluye un teclado de señas que permite a los usuarios comunicarse de manera eficiente y efectiva.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "signspeak",
+    "version": "1.0.0",
+    "description": "Signspeak Website",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@google-cloud/translate": "^8.3.0",
+        "axios": "^1.7.2",
+        "express": "^4.19.2",
+        "express-rate-limit": "^7.3.1",
+        "express-validator": "^7.1.0",
+        "helmet": "^7.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "socket.io": "^4.1.3"
+    }
 }

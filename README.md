@@ -27,16 +27,16 @@ Instalación
     ```bash
     cd Proyecto-SignSpeak
     ```
-3. Instalar las dependencias de Node.js:
+3. Inicia el servidor para poder acceder a la pagina:
     ```bash
-    npm install
+    node server.js
     ```
 4. Configurar y ejecutar el servidor web con XAMPP o cualquier otro servidor compatible con PHP:
     - Copia los archivos del proyecto en el directorio `htdocs` de XAMPP.
     - Inicia Apache y MySQL desde el panel de control de XAMPP.
 
 ## Uso
-Para iniciar la aplicación, asegúrate de que el servidor web y Node.js estén corriendo. Luego, abre tu navegador y accede a `http://localhost/Proyecto-SignSpeak`.
+Para iniciar la aplicación, asegúrate de que el servidor web y Node.js estén corriendo. Luego, abre tu navegador y accede a `http://localhost:3000/index.html`.
 
 ### Ejemplos
 1. **Traducción de lenguaje de señas a texto:**
